@@ -1,0 +1,3 @@
+[submodule "elegantbook-magic-revision"]
+	path = elegantbook-magic-revision
+	url = https://github.com/Azure1210/elegantbook-magic-revision.git

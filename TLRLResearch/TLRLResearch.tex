@@ -1,0 +1,50 @@
+\documentclass[lang=cn,14pt]{../elegantbook-magic-revision/elegentbook-magic-revision/gorgeousnbook}
+\title{TL \text{\&} RL Research}
+\subtitle{一团纷乱无序的碎碎念}
+
+\author{JDongChen}
+\institute{SJTU}
+\date{\today}
+\version{笔记版}
+\bioinfo{邮箱}{318830462@qq.com}
+
+\extrainfo{努力学习，早日毕业}
+
+\setcounter{tocdepth}{3}
+\logo{logo.png}
+\cover{cover.png}
+
+% 本文档命令
+\usepackage{array}
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+% 修改标题页的橙色带
+ \definecolor{customcolor}{RGB}{245, 250, 246}
+ \colorlet{coverlinecolor}{customcolor}
+\usepackage{zhlipsum}
+\usepackage{longtable}
+
+\begin{document}
+
+\chapterimage{chap.png}
+\maketitle
+% \input{xuzhang.tex}
+% \input{zhixie.tex}
+\frontmatter
+\thispagestyle{fancy}
+\tableofcontents
+
+\mainmatter
+\partsimage{parts.png}
+
+\part{信号时序逻辑}
+\chapterimage{chap1.png}
+\input{language/language.tex}
+
+\part{自动机}
+\chapterimage{chap2.png}
+\input{automaton/automaton.tex}
+
+
+
+
+\end{document}
